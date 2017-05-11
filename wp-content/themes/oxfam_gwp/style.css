@@ -1,0 +1,72 @@
+/*
+Theme Name : oxfam_gwp
+Author : smartupworld;
+Author URI : http:www.ghorardim.com;
+Version : 1.0;
+*/
+
+.primary-nav{
+    padding:0;
+    margin: 15px 0 0 0;
+    list-style: none;
+}
+
+.primary-nav li {
+    margin:0;
+    padding:0;
+    float: left;
+    position: relative;
+    list-style: none;
+}
+
+.primary-nav li ul li{
+    float:none;
+}
+.primary-nav li a{
+    color: #fff;
+    background: #0ea7ea;
+    display: block;
+    padding: 15px 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.primary-nav > li > a{
+    margin-left:5px;
+}
+
+.primary-nav > li:first-child a{
+    margin-left:0px;
+}
+
+
+
+.primary-nav  li ul{
+    display: none;
+    min-width: 200px;
+    position: absolute;
+    top:100%;
+    left:5px;
+}
+
+.primary-nav li a:hover,.primary-nav li.current-menu-item a{
+    color:#afeeff;
+    background: #0e9cda;
+}
+.primary-nav li:hover > ul{
+    display: block;
+    z-index: 99;
+    background: #0f9edc;
+}
+
+.primary-nav li ul > li {
+    float:none;
+    margin-left: -39px;
+}
+
+.primary-nav li ul > li > ul {
+    top: 0%;
+    left: 100%;
+}
